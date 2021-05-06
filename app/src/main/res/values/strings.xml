@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Mr Baby</string>
+    <string name="audio">Audio</string>
+    <string name="video">Video</string>
+    <string name="wn_on">White Noise On</string>
+    <string name="wn_off">White Noise Off</string>
+    <string name="whitenoise">White Noise?</string>
+    <string name="volume">Volume</string>
+    <string name="radio">Turn on Radio Mode</string>
+    <string name="showcamera">Show Camera</string>
+</resources>

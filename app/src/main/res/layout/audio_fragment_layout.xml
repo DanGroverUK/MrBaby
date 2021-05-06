@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@style/Theme.MrBaby">
+
+    <Switch
+        android:id="@+id/switch_whitenoise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/whitenoise"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/dark_grey"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:theme="@style/Theme.MrBaby"
+        android:typeface="sans"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:id="@+id/text_volumelabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/volume"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/dark_grey"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:theme="@style/Theme.MrBaby"
+        android:typeface="sans" />
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/slider_volume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.google.android.material.slider.Slider>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <Button
+        android:id="@+id/btn_radio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/radio"
+        android:textAllCaps="true"
+        android:textColor="@color/light_grey"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:theme="@style/Theme.MrBaby"
+        android:typeface="sans" />
+
+</LinearLayout>

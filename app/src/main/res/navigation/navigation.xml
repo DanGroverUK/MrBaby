@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation"
+    app:startDestination="@id/audio_fragment">
+
+    <fragment
+        android:id="@+id/audio_fragment"
+        android:name="com.dangrover.android.mrbaby.audio_fragment"
+        android:label="audio_fragment">
+        <action
+            android:id="@+id/action_audio_fragment_to_video_fragment"
+            app:destination="@id/video_fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/video_fragment"
+        android:name="com.dangrover.android.mrbaby.video_fragment"
+        android:label="video_fragment" >
+        <action
+            android:id="@+id/action_video_fragment_to_audio_fragment"
+            app:destination="@id/audio_fragment" />
+    </fragment>
+</navigation>
